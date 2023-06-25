@@ -1,0 +1,5 @@
+hdlmake
+make mrproper
+@pause
+
+

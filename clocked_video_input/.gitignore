@@ -1,0 +1,21 @@
+# root
+**/.qsys_edit
+*.tcl~
+
+# Common
+**/rtl_work
+**/work
+**/ip
+**/cvi_ciris.sim
+
+# sim
+*.vcd
+wave.do
+*.wlf
+transcript
+*.ini
+
+# syn
+**/tmp-clearbox
+**/qdb
+*.qsf

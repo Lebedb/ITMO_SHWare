@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Jun 18 22:57:01 2023
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : cvi_ciris
+Top-level Entity Name : cvi_ciris
+Family : Cyclone IV E
+Total logic elements : 327
+    Total combinational functions : 228
+    Dedicated logic registers : 219
+Total registers : 219
+Total pins : 25
+Total virtual pins : 0
+Total memory bits : 1,408
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

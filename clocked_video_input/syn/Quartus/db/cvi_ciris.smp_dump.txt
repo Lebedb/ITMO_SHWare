@@ -1,0 +1,15 @@
+
+State Machine - |cvi_ciris|bt_to_avst:INST_bt_to_avst|state
+Name state.END state.DATA state.START state.IDLE 
+state.IDLE 0 0 0 0 
+state.START 0 0 1 1 
+state.DATA 0 1 0 1 
+state.END 1 0 0 1 
+
+State Machine - |cvi_ciris|bt656_decoder:bt656_decoder|state
+Name state.DATA state.FIRST_ROW state.START state.IDLE state.END 
+state.IDLE 0 0 0 0 0 
+state.START 0 0 1 1 0 
+state.FIRST_ROW 0 1 0 1 0 
+state.DATA 1 0 0 1 0 
+state.END 0 0 0 1 1 

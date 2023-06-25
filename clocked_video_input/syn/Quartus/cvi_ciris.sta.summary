@@ -1,0 +1,77 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk_avalon_sv_i'
+Slack : -5.600
+TNS   : -223.658
+
+Type  : Slow 1200mV 85C Model Setup 'clk_itu_i'
+Slack : -2.937
+TNS   : -190.582
+
+Type  : Slow 1200mV 85C Model Hold 'clk_itu_i'
+Slack : 0.335
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk_avalon_sv_i'
+Slack : 0.384
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_itu_i'
+Slack : -3.000
+TNS   : -181.984
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_avalon_sv_i'
+Slack : -3.000
+TNS   : -116.203
+
+Type  : Slow 1200mV 0C Model Setup 'clk_avalon_sv_i'
+Slack : -5.011
+TNS   : -198.216
+
+Type  : Slow 1200mV 0C Model Setup 'clk_itu_i'
+Slack : -2.629
+TNS   : -164.725
+
+Type  : Slow 1200mV 0C Model Hold 'clk_avalon_sv_i'
+Slack : 0.337
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk_itu_i'
+Slack : 0.338
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_itu_i'
+Slack : -3.000
+TNS   : -181.852
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_avalon_sv_i'
+Slack : -3.000
+TNS   : -116.159
+
+Type  : Fast 1200mV 0C Model Setup 'clk_avalon_sv_i'
+Slack : -1.949
+TNS   : -66.270
+
+Type  : Fast 1200mV 0C Model Setup 'clk_itu_i'
+Slack : -0.963
+TNS   : -40.767
+
+Type  : Fast 1200mV 0C Model Hold 'clk_itu_i'
+Slack : 0.137
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk_avalon_sv_i'
+Slack : 0.173
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_itu_i'
+Slack : -3.000
+TNS   : -148.851
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_avalon_sv_i'
+Slack : -3.000
+TNS   : -95.927
+
+------------------------------------------------------------

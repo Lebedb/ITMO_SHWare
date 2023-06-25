@@ -1,0 +1,101 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "dout_valid",
+					"strict" : false
+				},
+				{
+					"name" : "dout_sop",
+					"strict" : false
+				},
+				{
+					"name" : "dout_eop",
+					"strict" : false
+				},
+				{
+					"name" : "dout_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dout_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dout_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dout_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dout_data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dout_data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dout_data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dout_data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "clk_avalon_sv_i",
+					"strict" : false
+				},
+				{
+					"name" : "rst_n",
+					"strict" : false
+				},
+				{
+					"name" : "dout_ready",
+					"strict" : false
+				},
+				{
+					"name" : "clk_itu_i",
+					"strict" : false
+				},
+				{
+					"name" : "itu_data_i[0]",
+					"strict" : false
+				},
+				{
+					"name" : "itu_data_i[1]",
+					"strict" : false
+				},
+				{
+					"name" : "itu_data_i[2]",
+					"strict" : false
+				},
+				{
+					"name" : "itu_data_i[3]",
+					"strict" : false
+				},
+				{
+					"name" : "itu_data_i[4]",
+					"strict" : false
+				},
+				{
+					"name" : "itu_data_i[5]",
+					"strict" : false
+				},
+				{
+					"name" : "itu_data_i[6]",
+					"strict" : false
+				},
+				{
+					"name" : "itu_data_i[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

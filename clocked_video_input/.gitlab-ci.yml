@@ -1,0 +1,27 @@
+variables:
+    GIT_STRATEGY: clone
+    GIT_DEPTH: 0
+
+stages:
+    - Quartus_Synthesis
+
+.analysis_and_elaboration_hidden_key: &analysis_and_elaboration_before_after
+    before_script:
+      - git clone -b dev_barabanshikov https://gitlab-ci-token:${CI_JOB_TOKEN}@ciris.ru:3080/Fpga_lib/common/common_lib2.git $CI_PROJECT_DIR/../../../common/common_lib2
+      - git clone https://gitlab-ci-token:${CI_JOB_TOKEN}@ciris.ru:3080/Fpga_lib/common/common_lib.git $CI_PROJECT_DIR/../../../common/common_lib
+    after_script:
+      - rm -r -fo $CI_PROJECT_DIR/../../../common
+  
+Analysis_and_Elaboration:
+    stage: Quartus_Synthesis
+    only:
+        refs:
+            - pushes
+    tags:
+        - FPGA
+        
+    <<: *analysis_and_elaboration_before_after
+    script:
+        - cd .\syn\quartus
+        - hdlmake
+        - make analysis_and_elaboration

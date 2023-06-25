@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Jun 18 22:46:01 2023
+# Process ID: 5232
+# Current directory: d:/Work/GitLab/FPGA_lib/IP/VIP/clocked_video_input_ciris/syn/Vivado
+# Command line: vivado.exe -mode tcl -source project.tcl
+# Log file: d:/Work/GitLab/FPGA_lib/IP/VIP/clocked_video_input_ciris/syn/Vivado/vivado.log
+# Journal file: d:/Work/GitLab/FPGA_lib/IP/VIP/clocked_video_input_ciris/syn/Vivado\vivado.jou
+#-----------------------------------------------------------
+source project.tcl
+# create_project cvi_ciris ./ 
+# set_property "part" "xc7a12tcpg238-3" [current_project] 
+# set_property "target_language" "verilog" [current_project] 
+# set_property "top" "cvi_ciris" [get_property srcset [current_run]] 
+# source files.tcl 
+## add_files -norecurse ../../../../../common/common_lib/rtl/alt_vipvfr131_common_control_packet_encoder.v;
+## set_property IS_GLOBAL_INCLUDE 1 [get_files ../../../../../common/common_lib/rtl/alt_vipvfr131_common_control_packet_encoder.v]  
+## add_files -norecurse ../../../../../common/common_lib/rtl/alt_vipvfr131_common_stream_output.v;
+## set_property IS_GLOBAL_INCLUDE 1 [get_files ../../../../../common/common_lib/rtl/alt_vipvfr131_common_stream_output.v]  
+## add_files -norecurse ../../rtl/bt656_decoder.sv;
+## set_property IS_GLOBAL_INCLUDE 1 [get_files ../../rtl/bt656_decoder.sv]  
+## add_files -norecurse ../../../../../common/common_lib2/ram/async_ram/rtl/crs_lib_async_ram.sv;
+## set_property IS_GLOBAL_INCLUDE 1 [get_files ../../../../../common/common_lib2/ram/async_ram/rtl/crs_lib_async_ram.sv]  
+## add_files -norecurse ../../rtl/bt_to_avst.sv;
+## set_property IS_GLOBAL_INCLUDE 1 [get_files ../../rtl/bt_to_avst.sv]  
+## add_files -norecurse ../../../../../common/common_lib2/fifo/crs_lib_dc_fifo/rtl/crs_lib_dc_fifo.sv;
+## set_property IS_GLOBAL_INCLUDE 1 [get_files ../../../../../common/common_lib2/fifo/crs_lib_dc_fifo/rtl/crs_lib_dc_fifo.sv]  
+## add_files -norecurse ../../rtl/bt601_decoder.sv;
+## set_property IS_GLOBAL_INCLUDE 1 [get_files ../../rtl/bt601_decoder.sv]  
+## add_files -norecurse ../../rtl/cvi_ciris.sv;
+## set_property IS_GLOBAL_INCLUDE 1 [get_files ../../rtl/cvi_ciris.sv]  
+# update_compile_order -fileset sources_1 
+# update_compile_order -fileset sim_1 
+# exit 
+INFO: [Common 17-206] Exiting Vivado at Sun Jun 18 22:46:08 2023...

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Jun 18 22:46:10 2023
+# Process ID: 3476
+# Current directory: d:/Work/GitLab/FPGA_lib/IP/VIP/clocked_video_input_ciris/syn/Vivado
+# Command line: vivado.exe -mode tcl -source synthesize.tcl
+# Log file: d:/Work/GitLab/FPGA_lib/IP/VIP/clocked_video_input_ciris/syn/Vivado/vivado.log
+# Journal file: d:/Work/GitLab/FPGA_lib/IP/VIP/clocked_video_input_ciris/syn/Vivado\vivado.jou
+#-----------------------------------------------------------
+source synthesize.tcl
